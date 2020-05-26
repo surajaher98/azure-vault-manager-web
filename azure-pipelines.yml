@@ -4,9 +4,9 @@ trigger:
     - master
 variables:
 - name: azureSubscription
-  value: Visual Studio Professional Subscription (f38a36f3-2ade-4baa-8c5a-0ef4ced220df)
+  value: 
 - name: storage
-  value: ymlstorageaccount
+  value: 
 - name: ContainerName
   value: $web
 stages:
