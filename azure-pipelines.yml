@@ -47,4 +47,4 @@ stages:
         Destination: AzureBlob
         storage: $(storage)
         ContainerName: $(ContainerName)
-
+        cleanTargetBeforeCopy: true
